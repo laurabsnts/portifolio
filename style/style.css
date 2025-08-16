@@ -6,10 +6,11 @@
 }
 
 :root {
-  --cor-primaria: #F5F7FA;    /* cor de fundo (Cinza Claro) */
-  --cor-secundaria: #1A237E;  /* titulo (Azul Marinho) */
-  --cor-tercearia: #00BCD4;   /* marcacao (Azul Ciano) */
-  --cor-hover: #00BCD4;      /* botao (Azul Ciano) */
+  --cor-primaria:  #FFFFFF;    /* cor de fundo*/
+  --cor-secundaria: #333333;  /* titulo */
+  --cor-tercearia: #4B0082;   /* marcacao*/
+  --cor-quartenaria: #9B59B6; /*rodape*/
+  --cor-hover: #9B59B6;      /* botao*/
 
     --fonte-primaria: "Krona One", sans-serif;
     --fonte-secundaria: "Montserrat", sans-serif;
@@ -94,7 +95,7 @@ body {
 }
 .rodape{
     color: var(--cor-primaria);
-    background-color: var(--cor-tercearia);
+    background-color: var(--cor-quartenaria);
     text-align: center;
     font-family:var(--fonte-secundaria);
     font-size: 1.12rem;
@@ -165,9 +166,8 @@ body {
         padding: 5%;
     }
 
-    .apresentacao-conteudo{
+    .apresentacao-conteudo {
         width: auto;
     }
 
 }
-
