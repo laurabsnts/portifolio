@@ -94,7 +94,7 @@ body {
     background-color: var(--cor-hover);
 }
 .rodape{
-    color: var(--cor-primaria);
+    color: var(--cor-secundaria);
     background-color: var(--cor-quartenaria);
     text-align: center;
     font-family:var(--fonte-secundaria);
@@ -171,3 +171,4 @@ body {
     }
 
 }
+
