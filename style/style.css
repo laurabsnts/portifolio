@@ -70,7 +70,7 @@ body {
     font-size: 1.12rem;
 }
 .apresentacao-imagem{
-    width: 90%;
+    width: 50%;
 }
 
 .botoes_links_navegacao{
@@ -155,7 +155,7 @@ body {
 
 @media (max-width: 1200px) {
     .cabecalho{
-        padding: 10%;
+        padding: 8%;
     }
 
     .cabecalho_menu{
@@ -163,12 +163,17 @@ body {
     }
     .apresentacao {
         flex-direction: column-reverse;
-        padding: 5%;
+        padding: 10%;
     }
 
     .apresentacao-conteudo {
         width: auto;
     }
 
-}
+    }
 
+@media (max-width: 768px) {
+  .apresentacao-imagem {
+    width: 100%;
+  }
+}
